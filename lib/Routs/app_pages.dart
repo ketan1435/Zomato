@@ -8,21 +8,21 @@ import 'package:zomato/Routs/routs.dart';
 
 class AppPage
 {
-static String INITIALROUTE = Route.SINEUPROUTE;
+static String INITIALROUTE = Routes.LOGIN_ROUTE;
 static final pages =
 [
   GetPage(
-      name: Route.LOGINROUTE,
+      name: Routes.LOGIN_ROUTE,
       page:()=>LoginScreen(),
       binding: AppBinding()
   ),
   GetPage(
-      name: Route.SINEUPROUTE,
+      name: Routes.SINEUP_ROUTE,
       page:()=>SineUpScreen(),
       binding: AppBinding()
   ),
   GetPage(
-      name: Route.HOMESCREENROUTE,
+      name: Routes.HOME_SCREEN_ROUTE,
       page:()=>HomeScreen(),
       binding: AppBinding()
   ),

@@ -20,7 +20,7 @@ class _SineUpScreenState extends State<SineUpScreen> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passController = TextEditingController();
   TextEditingController cPassController = TextEditingController();
-  final key1 = GlobalKey<FormState>();
+  final GlobalKey<FormState> key1 = GlobalKey<FormState>();
   AppController appController = Get.find();
 
   @override

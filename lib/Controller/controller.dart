@@ -6,3 +6,8 @@ class AppController extends GetxController
 
 
 }
+class LoginController extends GetxController
+{
+  TextEditingController emailController =TextEditingController();
+  TextEditingController passwordController=TextEditingController();
+}

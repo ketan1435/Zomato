@@ -1,10 +1,9 @@
 
 
-class Route
-{
+class Routes {
 
- static String LOGINROUTE = "/loginroute";
- static String SINEUPROUTE = "/sineuproute";
- static String HOMESCREENROUTE = "/homescreenroute";
+ static const LOGIN_ROUTE = "/login_route";
+ static const SINEUP_ROUTE = "/sineup_route";
+ static const HOME_SCREEN_ROUTE = "/home_screen_route";
 
 }

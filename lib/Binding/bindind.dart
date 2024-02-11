@@ -10,3 +10,11 @@ class AppBinding extends Bindings
    Get.lazyPut(() => AppController());
   }
 }
+class LoginBinding extends Bindings
+{
+  @override
+  void dependencies() {
+    Get.lazyPut<LoginController>(() => LoginController());
+  }
+
+}
